@@ -1,6 +1,13 @@
+# checks for GitHub Actions updates
 version: 2
 updates:
+  
   - package-ecosystem: "github-actions"
     directory: "/"
+    
+    # run at 3:15 AM EST every day
     schedule:
+      
       interval: "daily"
+      time: "03:15"
+      timezone: "America/New_York"
