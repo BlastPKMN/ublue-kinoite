@@ -31,29 +31,29 @@ modules:
     remove:
       
       packages:
-      
+
         - ark
-        - fcitx5
-        - filelight
-        - firefox
-        - firefox-langpacks
-        - firewall-config
-        - htop
-        - kate
-        - kde-connect
-        - kde-partitionmanager
-        - kcharselect
-        - kdebugsettings
-        - kfind
-        - khelpcenter
-        - kinfocenter
-        - kjournald
-        - krfb
-        - kwalletmanager5
-        - nvtop
-        - plasma-discover
-        - plasma-drkonqi
-        - plasma-welcome
+        - fcitx5
+        - filelight
+        - firefox
+        - firefox-langpacks
+        - firewall-config
+        - htop
+        - kate
+        - kde-connect
+        - kde-partitionmanager
+        - kcharselect
+        - kdebugsettings
+        - kfind
+        - khelpcenter
+        - kinfocenter
+        - kjournald
+        - krfb
+        - kwalletmanager5
+        - nvtop
+        - plasma-discover
+        - plasma-drkonqi
+        - plasma-welcome
         
   # this sets up the proper policy and signing files for signed images to work fully
   - type: signing
