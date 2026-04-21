@@ -50,6 +50,7 @@ modules:
         - kjournald
         - krfb
         - kwalletmanager5
+        - kwrite
         - nvtop
         - plasma-discover
         - plasma-drkonqi
