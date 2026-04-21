@@ -33,7 +33,6 @@ modules:
       packages:
         
         - ark
-        - fcitx5
         - filelight
         - firefox
         - firefox-langpacks
