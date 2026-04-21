@@ -39,21 +39,15 @@ modules:
         - firewall-config
         - htop
         - kate
-        - kcm-plasma-keyboard
         - kde-connect
         - kde-partitionmanager
         - kcharselect
         - kdebugsettings
         - kfind
-        - khelpcenter
-        - kinfocenter
         - kjournald
         - krfb
         - kwalletmanager5
         - nvtop
-        - plasma-discover
-        - plasma-drkonqi
-        - plasma-welcome
 
   # this sets up the proper policy and signing files for signed images to work fully
   - type: signing
