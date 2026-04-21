@@ -48,6 +48,8 @@ modules:
         - krfb
         - kwalletmanager5
         - nvtop
+        - plasma-discover
+        - kcm-plasma-keyboard
 
   # this sets up the proper policy and signing files for signed images to work fully
   - type: signing
