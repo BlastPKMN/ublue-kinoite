@@ -39,6 +39,7 @@ modules:
         - firewall-config
         - htop
         - kate
+        - kcm-plasma-keyboard
         - kde-connect
         - kde-partitionmanager
         - kcharselect
