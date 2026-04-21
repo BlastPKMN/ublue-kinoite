@@ -45,10 +45,13 @@ modules:
         - kdebugsettings
         - kfind
         - kinfocenter
+        - kinfocenter
         - kjournald
         - krfb
         - kwalletmanager5
         - nvtop
         - plasma-drkonqi
+        - plasma-welcome
+        
   # this sets up the proper policy and signing files for signed images to work fully
   - type: signing
