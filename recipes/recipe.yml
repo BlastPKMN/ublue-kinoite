@@ -5,7 +5,7 @@ description: Custom Universal Blue Kinoite image by BlastPKMN
 
 # base image
 base-image: ghcr.io/ublue-os/kinoite-main
-image-version: 44
+image-version: latest
 
 # module configuration, executed in order
 modules:
