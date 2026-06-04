@@ -24,6 +24,7 @@ modules:
 
       packages:
       
+        - cifs-utils
         - fastfetch
         - fish
         
