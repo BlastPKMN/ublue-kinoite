@@ -12,7 +12,7 @@ To switch an existing Fedora bootc installation to the latest build:
 
 - Switch to the new container image:
   ```
-  sudo bootc switch ghcr.io/BlastPKMN/ublue-kinoite:latest
+  sudo bootc switch ghcr.io/blastpkmn/ublue-kinoite:latest
   ```
 - Reboot to complete the rebase:
   ```
