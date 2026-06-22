@@ -5,9 +5,9 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     
-    # run at 3:15 AM EST every day
+    # trigger at 12:00 AM EST every day
     schedule:
       
       interval: "daily"
-      time: "03:15"
+      time: "00:00"
       timezone: "America/New_York"
