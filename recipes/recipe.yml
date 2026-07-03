@@ -26,7 +26,6 @@ modules:
       
         - fastfetch
         - fish
-        - unzip
         
     # remove packages
     remove:
