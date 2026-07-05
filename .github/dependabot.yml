@@ -1,35 +1,13 @@
-# trigger GitHub Actions updates at 2:25 AM EST every day
+# checks for GitHub Actions updates
 version: 2
 updates:
-
-  # Monday through Friday check
+  
   - package-ecosystem: "github-actions"
     directory: "/"
     
+    # trigger at 2:25 AM EST every day
     schedule:
       
-      interval: "daily"
-      time: "02:25"
-      timezone: "America/New_York"
-
-  # Saturday check
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    
-    schedule:
-      
-      interval: "weekly"
-      day: "saturday"
-      time: "02:25"
-      timezone: "America/New_York"
-
-  # Sunday check
-  - package-ecosystem: "github-actions"
-    directory: "/"
-    
-    schedule:
-      
-      interval: "weekly"
-      day: "sunday"
-      time: "02:25"
+      interval: "cron"
+      cronjob: "25 2 * * *"
       timezone: "America/New_York"
