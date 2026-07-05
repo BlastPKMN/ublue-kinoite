@@ -8,6 +8,5 @@ updates:
     # trigger at 2:25 AM EST every day
     schedule:
       
-      interval: "cron"
       cron: "25 2 * * *"
       timezone: "America/New_York"
