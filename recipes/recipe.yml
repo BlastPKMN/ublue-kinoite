@@ -7,7 +7,7 @@ description: Custom Universal Blue Kinoite image by BlastPKMN
 base-image: ghcr.io/ublue-os/kinoite-main
 image-version: latest
 
-# module configuration, executed in order
+# module configuration in order
 modules:
 
   - type: dnf  
