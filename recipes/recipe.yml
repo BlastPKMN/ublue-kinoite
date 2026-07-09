@@ -9,13 +9,6 @@ image-version: latest
 
 # module configuration, executed in order
 modules:
-  
-  - type: script
-    
-    # run scripts
-    scripts:
-    
-      - kernel-cachyos.sh
 
   - type: dnf  
    
