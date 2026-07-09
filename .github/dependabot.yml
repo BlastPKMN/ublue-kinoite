@@ -5,7 +5,7 @@ updates:
   - package-ecosystem: "github-actions"
     directory: "/"
     
-    # trigger at 2:25 AM EST daily
+    # trigger at 2:25 AM EST every day
     schedule:
       
       interval: "cron"
