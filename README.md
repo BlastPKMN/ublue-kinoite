@@ -4,7 +4,7 @@ Custom Universal Blue Kinoite image by BlastPKMN
 
 ## Configuration
 
-Template Universal Blue Kinoite image with custom installations/removals
+Template Universal Blue Kinoite image with custom package installations/removals
 
 ## Installation
 
