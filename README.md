@@ -4,7 +4,7 @@ Custom Universal Blue Kinoite image by BlastPKMN
 
 ## Configuration
 
-Template Universal Blue Kinoite image with minimal software/debloated system
+Template Universal Blue Kinoite image with minimal software
 
 ## Installation
 
