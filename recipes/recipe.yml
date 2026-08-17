@@ -19,6 +19,7 @@ modules:
       
         - fastfetch
         - fish
+        - micro
         
     # remove packages
     remove:
@@ -31,7 +32,6 @@ modules:
         - firefox
         - firefox-langpacks
         - firewall-config
-        - htop
         - kate
         - kde-connect
         - kde-partitionmanager
@@ -44,7 +44,6 @@ modules:
         - krfb
         - kwalletmanager5
         - kwrite
-        - nvtop
         - plasma-discover
         - plasma-drkonqi
         - plasma-welcome
