@@ -10,11 +10,19 @@ Template Universal Blue Kinoite image with custom package installations/removals
 
 To switch an existing Fedora bootc installation to the latest build:
 
-- Switch to the new container image:
+- Switch to the unsigned container image:
   ```
   sudo bootc switch ghcr.io/blastpkmn/ublue-kinoite:latest
   ```
-- Reboot to complete the rebase:
+- Reboot to complete the initial switch:
+  ```
+  systemctl reboot
+  ```
+- Switch to the signed container image:
+  ```
+  sudo bootc switch --enforce-container-sigpolicy ghcr.io/blastpkmn/ublue-kinoite:latest
+  ```
+- Reboot to complete the final switch:
   ```
   systemctl reboot
   ```
