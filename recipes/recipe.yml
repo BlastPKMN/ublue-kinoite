@@ -11,24 +11,16 @@ image-version: latest
 modules:
   
   - type: dnf  
-   
-    # add repositories
-    repos:
-      
-      files:
-        
-        - https://repo.secureblue.dev/secureblue.repo
-        
+    
     # install packages    
     install:
       
       packages:
-      
+        
         - fastfetch
         - fish
         - micro
-        - trivalent
-        
+    
     # remove packages
     remove:
       
@@ -57,6 +49,6 @@ modules:
         - plasma-discover
         - plasma-drkonqi
         - plasma-welcome
-        
+  
   # this sets up the proper policy and signing files for signed images to work fully
   - type: signing
