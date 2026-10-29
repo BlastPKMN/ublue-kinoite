@@ -9,23 +9,31 @@ image-version: latest
 
 # module configuration in order
 modules:
-
+  
   - type: dnf  
    
+    # add repositories
+    repos:
+      
+      files:
+        
+        - https://repo.secureblue.dev/secureblue.repo
+        
     # install packages    
     install:
-
+      
       packages:
       
         - fastfetch
         - fish
         - micro
+        - trivalent
         
     # remove packages
     remove:
       
       packages:
-
+        
         - ark
         - fcitx5
         - filelight
